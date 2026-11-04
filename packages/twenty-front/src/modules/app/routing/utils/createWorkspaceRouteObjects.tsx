@@ -8,10 +8,31 @@ import {
 } from '@/app/components/SettingsRoutes';
 import { type WorkspaceRouteObject } from '@/app/routing/types/WorkspaceRouteObject';
 import { RecordIndexSkeletonLoader } from '@/object-record/record-index/components/RecordIndexSkeletonLoader';
+import { SEQUENCE_SHOW_PATH } from '@/sequences/constants/SequenceShowPath';
+import { SEQUENCES_PATH } from '@/sequences/constants/SequencesPath';
+import { TASK_QUEUE_PATH } from '@/sequences/constants/TaskQueuePath';
 
 const GettingStartedPage = lazy(() =>
   import('~/pages/getting-started/GettingStartedPage').then((module) => ({
     default: module.GettingStartedPage,
+  })),
+);
+
+const SequencesPage = lazy(() =>
+  import('~/pages/sequences/SequencesPage').then((module) => ({
+    default: module.SequencesPage,
+  })),
+);
+
+const SequenceShowPage = lazy(() =>
+  import('~/pages/sequences/SequenceShowPage').then((module) => ({
+    default: module.SequenceShowPage,
+  })),
+);
+
+const TaskQueuePage = lazy(() =>
+  import('~/pages/sequences/TaskQueuePage').then((module) => ({
+    default: module.TaskQueuePage,
   })),
 );
 
@@ -95,6 +116,30 @@ export const createWorkspaceRouteObjects = ({
       element: (
         <LazyRoute>
           <GettingStartedPage />
+        </LazyRoute>
+      ),
+    },
+    {
+      path: SEQUENCES_PATH,
+      element: (
+        <LazyRoute>
+          <SequencesPage />
+        </LazyRoute>
+      ),
+    },
+    {
+      path: SEQUENCE_SHOW_PATH,
+      element: (
+        <LazyRoute>
+          <SequenceShowPage />
+        </LazyRoute>
+      ),
+    },
+    {
+      path: TASK_QUEUE_PATH,
+      element: (
+        <LazyRoute>
+          <TaskQueuePage />
         </LazyRoute>
       ),
     },
