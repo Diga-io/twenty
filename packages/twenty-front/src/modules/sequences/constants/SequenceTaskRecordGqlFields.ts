@@ -17,7 +17,6 @@ export const SEQUENCE_TASK_RECORD_GQL_FIELDS: RecordGqlFields = {
     status: true,
     currentStepIndex: true,
     sequenceId: true,
-    sequence: { id: true, name: true, steps: true },
   },
   taskTargets: {
     id: true,

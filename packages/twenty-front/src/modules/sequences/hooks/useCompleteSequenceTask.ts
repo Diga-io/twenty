@@ -66,9 +66,12 @@ export const useCompleteSequenceTask = () => {
 
     const enrollment = task.sequenceEnrollment;
 
+    // Without the sequence steps we cannot tell which step comes next, so
+    // leave the enrollment untouched rather than finishing it by mistake.
     if (
       !isDefined(enrollment) ||
       enrollment.status !== 'ACTIVE' ||
+      !isDefined(enrollment.sequence) ||
       !isDefined(person)
     ) {
       return;
