@@ -1,5 +1,6 @@
 import { GettingStartedOpenedSection } from '@/getting-started/components/GettingStartedOpenedSection';
 import { NavigationDrawerOpenedSection } from '@/navigation-menu-item/display/sections/components/NavigationDrawerOpenedSection';
+import { ProspectingNavigationSection } from '@/sequences/components/ProspectingNavigationSection';
 import { NavigationDrawerWorkspaceSectionSkeletonLoader } from '@/object-metadata/components/NavigationDrawerWorkspaceSectionSkeletonLoader';
 
 import { styled } from '@linaria/react';
@@ -34,6 +35,7 @@ export const MainNavigationDrawerScrollableItems = () => {
     <StyledScrollableItemsContainer>
       <NavigationDrawerOpenedSection />
       <GettingStartedOpenedSection />
+      <ProspectingNavigationSection />
       <Suspense fallback={<NavigationDrawerWorkspaceSectionSkeletonLoader />}>
         <FavoritesSectionDispatcher />
         <WorkspaceSectionDispatcher />
