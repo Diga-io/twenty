@@ -1,5 +1,6 @@
 import { type ErrorLike } from '@apollo/client';
 import { type ReactNode } from 'react';
+import { CoreObjectNameSingular } from 'twenty-shared/types';
 import { isDefined } from 'twenty-shared/utils';
 
 import { TimelineActivityContext } from '@/activities/timeline-activities/contexts/TimelineActivityContext';
@@ -17,6 +18,7 @@ import { type ObjectRecord } from '@/object-record/types/ObjectRecord';
 import { SidePanelToggleButton } from '@/side-panel/components/SidePanelToggleButton';
 import { useWorkspaceSurface } from '@/ui/layout/hooks/useWorkspaceSurface';
 import { useWorkspaceSurfaceScopedComponentInstanceId } from '@/ui/layout/hooks/useWorkspaceSurfaceScopedComponentInstanceId';
+import { PersonCallButton } from '@/phone-call/components/PersonCallButton';
 import { PageCardLayout } from '@/ui/layout/page/components/PageCardLayout';
 import { useAtomStateValue } from '@/ui/utilities/state/jotai/hooks/useAtomStateValue';
 import { RecordShowPageHeader } from '~/pages/object-record/RecordShowPageHeader';
@@ -98,6 +100,8 @@ export const RecordShowPageShell = ({
               {!isInSidePanel && (
                 <>
                   <RecordShowCommandMenu />
+                  {objectNameSingular === CoreObjectNameSingular.Person &&
+                    isDefined(record) && <PersonCallButton person={record} />}
                   {headerActions}
                   {!isLayoutCustomizationModeEnabled && (
                     <SidePanelToggleButton />
