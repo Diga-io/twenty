@@ -7,6 +7,7 @@ import { InformationBannerIsImpersonating } from '@/information-banner/component
 import { KeyboardShortcutMenu } from '@/keyboard-shortcut-menu/components/KeyboardShortcutMenu';
 import { LayoutCustomizationBar } from '@/layout-customization/components/LayoutCustomizationBar';
 import { MobileNavigationBar } from '@/navigation/components/MobileNavigationBar';
+import { PhoneCallWindow } from '@/phone-call/components/PhoneCallWindow';
 import { PageDragDropProvider } from '@/navigation-menu-item/display/dnd/providers/PageDragDropProvider';
 import { useIsMobile } from 'twenty-ui/utilities';
 import { styled } from '@linaria/react';
@@ -84,6 +85,7 @@ export const DefaultLayout = () => {
               </PageDragDropProvider>
             </StyledPageContainer>
             {isMobile && <MobileNavigationBar />}
+            <PhoneCallWindow />
           </AppErrorBoundary>
         </StyledLayout>
       </FileUploadProvider>

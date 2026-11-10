@@ -5137,6 +5137,12 @@ msgstr "Bundled with {applicationName}"
 msgid "Burst"
 msgstr "Burst"
 
+#. js-lingui-id: Vtrj95
+#: src/modules/phone-call/constants/PhoneCallResultOptions.ts
+msgctxt "phone call result"
+msgid "Busy"
+msgstr "Busy"
+
 #. js-lingui-id: yjeERL
 #: src/modules/advanced-text-editor/constants/AdvancedTextEditorBlockCatalog.ts
 msgid "button"
@@ -5341,6 +5347,51 @@ msgstr "Calendar widget"
 #: src/pages/settings/accounts/SettingsAccountsCalendars.tsx
 msgid "Calendars"
 msgstr "Calendars"
+
+#. js-lingui-id: 4caNo0
+#: src/modules/phone-call/components/PersonCallButton.tsx
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgctxt "phone call action"
+msgid "Call"
+msgstr "Call"
+
+#. js-lingui-id: nRK0ic
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+#: src/modules/phone-call/hooks/useRegisterPhoneCall.ts
+#: src/modules/phone-call/hooks/useRegisterPhoneCall.ts
+msgctxt "phone call noun"
+msgid "Call"
+msgstr "Call"
+
+#. js-lingui-id: 6BsS3F
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Call again"
+msgstr "Call again"
+
+#. js-lingui-id: f8vZT3
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Call ended"
+msgstr "Call ended"
+
+#. js-lingui-id: yjDMy1
+#: src/modules/phone-call/hooks/useRegisterPhoneCall.ts
+msgid "Call logged"
+msgstr "Call logged"
+
+#. js-lingui-id: 3Encjt
+#: src/modules/phone-call/hooks/useRegisterPhoneCall.ts
+msgid "Call logged and task completed"
+msgstr "Call logged and task completed"
+
+#. js-lingui-id: Tbiw/K
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Call notes"
+msgstr "Call notes"
+
+#. js-lingui-id: 4GchXW
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Call recorded: it is saved when you log it"
+msgstr "Call recorded: it is saved when you log it"
 
 #. js-lingui-id: cHma9m
 #: src/modules/activities/calendar/components/CalendarEventCallRecorderAvatar.tsx
@@ -5980,6 +6031,11 @@ msgstr "Choose a date to see available times."
 msgid "Choose a model mode"
 msgstr "Choose a model mode"
 
+#. js-lingui-id: ljtwrE
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Choose a result…"
+msgstr "Choose a result…"
+
 #. js-lingui-id: Vgi70q
 #: src/modules/ai/components/AiChatApprovalMergeReview.tsx
 msgid "Choose a source record to keep"
@@ -6086,6 +6142,16 @@ msgstr "Choose icon color"
 #: src/modules/settings/billing/components/internal/SettingsBillingPlansWithoutSubscription.tsx
 msgid "Choose plan"
 msgstr "Choose plan"
+
+#. js-lingui-id: gD916U
+#: src/modules/phone-call/hooks/useRegisterPhoneCall.ts
+msgid "Choose the call result before logging it"
+msgstr "Choose the call result before logging it"
+
+#. js-lingui-id: qAdWHV
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Choose the call result to log it before closing"
+msgstr "Choose the call result to log it before closing"
 
 #. js-lingui-id: YcrXB2
 #: src/modules/settings/data-model/fields/forms/currency/components/SettingsDataModelFieldCurrencyForm.tsx
@@ -6397,6 +6463,7 @@ msgstr "Clipboard requires a secure connection (HTTPS). Please access this app o
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemAddDropdownContent.tsx
 #: src/modules/object-record/object-sort-dropdown/components/ObjectSortDropdownButton.tsx
 #: src/modules/onboarding/components/OnboardingSkipDialog.tsx
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
 #: src/modules/related-record-paths/components/SettingsObjectRelatedRecordPathPicker.tsx
 #: src/modules/settings/applications/components/SettingsApplicationScreenshotLightbox.tsx
 #: src/modules/settings/roles/role-permissions/object-level-permissions/record-level-permissions/components/SettingsRolePermissionsObjectLevelRecordLevelPermissionMeValueSelect.tsx
@@ -6745,6 +6812,11 @@ msgstr "Compensation"
 #: src/modules/settings/unsubscribers/utils/getMessageSuppressionReasonBadge.ts
 msgid "Complaint"
 msgstr "Complaint"
+
+#. js-lingui-id: egNPG9
+#: src/modules/phone-call/components/PhoneCallTaskSelect.tsx
+msgid "Complete a task"
+msgstr "Complete a task"
 
 #. js-lingui-id: 3WrMP5
 #: src/modules/settings/accounts/components/SettingsAccountsRowDropdownMenu.tsx
@@ -7142,6 +7214,12 @@ msgstr "Connect your own {0} account for this app to use on your behalf."
 #. js-lingui-id: QHcLEN
 #: src/modules/settings/applications/components/SettingsApplicationConnectionStatus.tsx
 #: src/pages/settings/applications/SettingsApplicationConnectionDetail.tsx
+msgid "Connected"
+msgstr "Connected"
+
+#. js-lingui-id: 3sHXS+
+#: src/modules/phone-call/constants/PhoneCallResultOptions.ts
+msgctxt "phone call result"
 msgid "Connected"
 msgstr "Connected"
 
@@ -7769,6 +7847,11 @@ msgstr "Couldn't load monitoring"
 #: src/modules/navigation-menu-item/edit/components/NavigationMenuItemAddDropdownContent.tsx
 msgid "Couldn't load pages"
 msgstr "Couldn't load pages"
+
+#. js-lingui-id: 2a3uhs
+#: src/modules/phone-call/hooks/useRegisterPhoneCall.ts
+msgid "Couldn't log the call. Try again."
+msgstr "Couldn't log the call. Try again."
 
 #. js-lingui-id: kjbTwZ
 #: src/modules/navigation-menu-item/edit/hooks/useNavigationMenuItemEditController.ts
@@ -10256,6 +10339,7 @@ msgstr "Duplicate widget"
 
 #. js-lingui-id: lkz6PL
 #: src/modules/object-core/agents/components/CoreAgentRunsTab.tsx
+#: src/modules/phone-call/hooks/useRegisterPhoneCall.ts
 #: src/modules/workflow/workflow-steps/workflow-actions/ai-agent-action/components/WorkflowRunStepLogsAiAgentDetail.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/code-action/components/WorkflowRunStepLogsCodeDetail.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/components/WorkflowRunStepLogsEmailDetail.tsx
@@ -11961,6 +12045,7 @@ msgstr "Exit import flow"
 #: src/modules/log-console/components/LogConsoleDetailPanel.tsx
 #: src/modules/object-record/record-field/ui/meta-types/display/components/JsonFieldDisplay.tsx
 #: src/modules/object-record/record-field/ui/meta-types/input/components/RawJsonFieldInput.tsx
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
 #: src/modules/settings/admin-panel/components/SettingsAdminChatToolCallPart.tsx
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminJobDetailsExpandable.tsx
 #: src/modules/settings/admin-panel/health-status/components/SettingsAdminJobDetailsExpandable.tsx
@@ -13175,6 +13260,11 @@ msgstr "Finding connected accounts"
 msgid "Finish"
 msgstr "Finish"
 
+#. js-lingui-id: THe2D0
+#: src/modules/phone-call/hooks/useOpenPhoneCall.ts
+msgid "Finish and log the current call before starting another one"
+msgstr "Finish and log the current call before starting another one"
+
 #. js-lingui-id: O9Sink
 #: src/modules/side-panel/pages/ask-ai/hooks/useExpandAskAiSidePanelPage.ts
 msgid "Finish editing the layout to expand chat"
@@ -14101,6 +14191,16 @@ msgstr "h6"
 msgid "Handle"
 msgstr "Handle"
 
+#. js-lingui-id: WC0jnW
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Hang up"
+msgstr "Hang up"
+
+#. js-lingui-id: qHreYR
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Hang up the call before closing the window"
+msgstr "Hang up the call before closing the window"
+
 #. js-lingui-id: MvwlmR
 #: src/modules/settings/data-model/constants/RelationTypes.ts
 msgid "Has many"
@@ -14888,6 +14988,11 @@ msgstr "In {listName}"
 #: src/modules/getting-started/components/GettingStartedSnoozeMenu.tsx
 msgid "In an hour"
 msgstr "In an hour"
+
+#. js-lingui-id: BzjUSy
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "In call"
+msgstr "In call"
 
 #. js-lingui-id: /LCAwL
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceDataExportSection.tsx
@@ -16559,7 +16664,7 @@ msgstr "Link copied to clipboard"
 #. js-lingui-id: /RZu15
 #: src/modules/activities/emails/components/EmptyInboxPlaceholder.tsx
 #: src/modules/activities/emails/components/LinkEmailThreadsDropdown.tsx
-#: src/modules/page-layout/widgets/emails/components/WidgetActionEmails.tsx
+#: src/modules/page-layout/widgets/messages/components/WidgetActionMessages.tsx
 msgid "Link email threads"
 msgstr "Link email threads"
 
@@ -16905,6 +17010,16 @@ msgstr "Lock diagram"
 #: src/modules/ai/components/suggested-prompts/default-suggested-prompts.ts
 msgid "Log a new deal (company, amount, stage, expected close). Details: "
 msgstr "Log a new deal (company, amount, stage, expected close). Details: "
+
+#. js-lingui-id: jMm/dX
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Log call"
+msgstr "Log call"
+
+#. js-lingui-id: bfUrZ7
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Log call and complete task"
+msgstr "Log call and complete task"
 
 #. js-lingui-id: qLzdcJ
 #: src/modules/settings/event-logs/components/SettingsOpenLogConsoleCard.tsx
@@ -17762,6 +17877,11 @@ msgstr "Min range"
 msgid "Minimal"
 msgstr "Minimal"
 
+#. js-lingui-id: 3TSz9S
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Minimize"
+msgstr "Minimize"
+
 #. js-lingui-id: clKD2b
 #: src/modules/advanced-text-editor/extensions/slash-command/DefaultSlashCommands.ts
 msgid "Minor subsection heading"
@@ -18547,6 +18667,11 @@ msgstr "New Key"
 msgid "New limit"
 msgstr "New limit"
 
+#. js-lingui-id: mTBAsF
+#: src/modules/page-layout/widgets/messages/components/WidgetActionMessageCompose.tsx
+msgid "New message"
+msgstr "New message"
+
 #. js-lingui-id: ROxeMs
 #: src/pages/settings/admin-panel/SettingsAdminNewAiModel.tsx
 #: src/pages/settings/admin-panel/SettingsAdminNewAiModel.tsx
@@ -18852,6 +18977,12 @@ msgstr "No AI provider is configured on this instance."
 #: src/modules/settings/admin-panel/ai/components/SettingsAdminAI.tsx
 msgid "No AI usage data recorded yet."
 msgstr "No AI usage data recorded yet."
+
+#. js-lingui-id: KhQTJZ
+#: src/modules/phone-call/constants/PhoneCallResultOptions.ts
+msgctxt "phone call result"
+msgid "No answer"
+msgstr "No answer"
 
 #. js-lingui-id: 9mx36q
 #: src/modules/settings/roles/role-assignment/components/SettingsRoleAssignmentTable.tsx
@@ -19581,6 +19712,11 @@ msgstr "No subject"
 msgid "No targets available"
 msgstr "No targets available"
 
+#. js-lingui-id: Amt15H
+#: src/modules/phone-call/components/PhoneCallTaskSelect.tsx
+msgid "No task"
+msgstr "No task"
+
 #. js-lingui-id: t0t36i
 #: src/modules/workflow/workflow-steps/workflow-actions/ai-agent-action/components/WorkflowRunStepLogsAiAgentDetail.tsx
 msgid "No tools were called"
@@ -19906,6 +20042,11 @@ msgstr "Not recorded"
 msgid "Not Recorded"
 msgstr "Not Recorded"
 
+#. js-lingui-id: lOdS3I
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Not recording: allow microphone access to record calls"
+msgstr "Not recording: allow microphone access to record calls"
+
 #. js-lingui-id: gnnpkq
 #: src/modules/ai/components/AiChatToolCallApprovalStatusRenderer.tsx
 msgid "Not run: the record changed since it was proposed"
@@ -19962,6 +20103,11 @@ msgstr "Not synced"
 #: src/modules/side-panel/pages/page-layout/components/SidePanelPageLayoutRecordPageWidgetTypeSelect.tsx
 msgid "Note"
 msgstr "Note"
+
+#. js-lingui-id: 1DBGsz
+#: src/modules/phone-call/hooks/useRegisterPhoneCall.ts
+msgid "Notes"
+msgstr "Notes"
 
 #. js-lingui-id: 543eQ7
 #: src/modules/settings/billing/components/SettingsBillingLimitForm.tsx
@@ -21436,6 +21582,7 @@ msgstr "Personal usage limit resets in {daysUntilReset, plural, one {# day} othe
 #. js-lingui-id: zmwvG2
 #: src/modules/object-record/record-field/ui/meta-types/input/components/PhonesFieldInput.tsx
 #: src/modules/object-record/record-form/components/RecordFormPhonesFieldInput.tsx
+#: src/modules/phone-call/hooks/useRegisterPhoneCall.ts
 msgid "Phone"
 msgstr "Phone"
 
@@ -21449,6 +21596,11 @@ msgstr "Phone Number"
 #: src/modules/object-record/record-field/ui/meta-types/display/components/PhonesFieldDisplay.tsx
 msgid "Phone number copied to clipboard"
 msgstr "Phone number copied to clipboard"
+
+#. js-lingui-id: QBy23m
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Phone number to call"
+msgstr "Phone number to call"
 
 #. js-lingui-id: /WYEJU
 #: src/modules/settings/data-model/constants/SettingsCompositeFieldTypeConfigs.ts
@@ -22670,10 +22822,25 @@ msgstr "Recorder Joining"
 msgid "Recording"
 msgstr "Recording"
 
+#. js-lingui-id: pc5uPn
+#: src/modules/phone-call/hooks/useRegisterPhoneCall.ts
+msgid "Recording attached to the person's files"
+msgstr "Recording attached to the person's files"
+
+#. js-lingui-id: 55CLQU
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Recording both voices · let them know the call is recorded"
+msgstr "Recording both voices · let them know the call is recorded"
+
 #. js-lingui-id: nHfxK5
 #: src/modules/page-layout/widgets/call-recording/utils/getCallRecordingStatusDisplayConfiguration.ts
 msgid "Recording Failed"
 msgstr "Recording Failed"
+
+#. js-lingui-id: iFl/8F
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Recording only your voice · let them know the call is recorded"
+msgstr "Recording only your voice · let them know the call is recorded"
 
 #. js-lingui-id: h9TBi+
 #: src/modules/page-layout/widgets/call-recording/utils/getCallRecordingStatusDisplayConfiguration.ts
@@ -23308,6 +23475,11 @@ msgstr "Request {requestNumber} of {requestCount}"
 msgid "Request Failed"
 msgstr "Request Failed"
 
+#. js-lingui-id: K4LQN3
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Requesting microphone access…"
+msgstr "Requesting microphone access…"
+
 #. js-lingui-id: Vhxipp
 #: src/modules/settings/billing/constants/UsageLimitUnitLabels.ts
 msgid "requests"
@@ -23551,6 +23723,8 @@ msgid "Restricted"
 msgstr "Restricted"
 
 #. js-lingui-id: RD6AE9
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+#: src/modules/phone-call/hooks/useRegisterPhoneCall.ts
 #: src/modules/workflow/workflow-steps/workflow-actions/code-action/components/WorkflowEditActionCode.tsx
 #: src/modules/workflow/workflow-steps/workflow-actions/logic-function-action/components/WorkflowEditActionLogicFunction.tsx
 msgid "Result"
@@ -25233,6 +25407,11 @@ msgstr "Send emails from connected accounts"
 #: src/modules/settings/roles/role-permissions/permission-flags/hooks/useActionRolePermissionFlagConfig.ts
 msgid "Send emails via connected accounts"
 msgstr "Send emails via connected accounts"
+
+#. js-lingui-id: l/ipRX
+#: src/modules/page-layout/widgets/messages/components/WidgetActionMessageCompose.tsx
+msgid "Send from"
+msgstr "Send from"
 
 #. js-lingui-id: lPcA5V
 #: src/modules/getting-started/components/GettingStartedPromptAction.tsx
@@ -28007,6 +28186,11 @@ msgstr "This condition doesn't read any field."
 msgid "This connection does not exist or is not available for this application."
 msgstr "This connection does not exist or is not available for this application."
 
+#. js-lingui-id: O53ukr
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "This contact has no phone number"
+msgstr "This contact has no phone number"
+
 #. js-lingui-id: HWM4G8
 #: src/modules/ai/components/AiChatEditorSection.tsx
 #: src/modules/ai/hooks/useAgentChatSubscription.ts
@@ -29538,6 +29722,11 @@ msgstr "Unlock premium features like SSO, row-level security, and audit logs."
 msgid "Unnamed API Key"
 msgstr "Unnamed API Key"
 
+#. js-lingui-id: KOON+9
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "Unnamed contact"
+msgstr "Unnamed contact"
+
 #. js-lingui-id: a3Hy65
 #: src/modules/settings/admin-panel/components/SettingsAdminWorkspaceBillingContent.tsx
 msgid "Unnamed product"
@@ -29709,6 +29898,11 @@ msgstr "Untitled Rich Text"
 #: src/modules/settings/roles/role/components/SettingsRoleCreateEffect.tsx
 msgid "Untitled role"
 msgstr "Untitled role"
+
+#. js-lingui-id: CowgFX
+#: src/modules/phone-call/components/PhoneCallTaskSelect.tsx
+msgid "Untitled task"
+msgstr "Untitled task"
 
 #. js-lingui-id: jxRjAG
 #: src/modules/activities/emails/components/CampaignDetailsFields.tsx
@@ -30861,6 +31055,12 @@ msgstr "Visualize"
 msgid "Visualize data model"
 msgstr "Visualize data model"
 
+#. js-lingui-id: MX0faz
+#: src/modules/phone-call/constants/PhoneCallResultOptions.ts
+msgctxt "phone call result"
+msgid "Voicemail"
+msgstr "Voicemail"
+
 #. js-lingui-id: Ii6BOL
 #: src/modules/ai/components/AiModelTierInformationButton.tsx
 msgid "Vs Balanced mode"
@@ -31251,6 +31451,11 @@ msgstr "What should the agent do when this trigger fires?"
 #: src/modules/workflow/workflow-steps/workflow-actions/classify-action/components/WorkflowEditActionClassify.tsx
 msgid "What should the model decide?"
 msgstr "What should the model decide?"
+
+#. js-lingui-id: 09StzU
+#: src/modules/phone-call/components/PhoneCallWindow.tsx
+msgid "What they told you, next steps…"
+msgstr "What they told you, next steps…"
 
 #. js-lingui-id: cE4SvC
 #: src/pages/settings/developers/api-keys/SettingsDevelopersApiKeyDetail.tsx
@@ -31808,6 +32013,12 @@ msgstr "Write the email"
 #: src/modules/settings/logic-functions/components/tabs/SettingsLogicFunctionCodeEditorTab.tsx
 msgid "Write your function (in typescript) below"
 msgstr "Write your function (in typescript) below"
+
+#. js-lingui-id: sZfN/A
+#: src/modules/phone-call/constants/PhoneCallResultOptions.ts
+msgctxt "phone call result"
+msgid "Wrong number"
+msgstr "Wrong number"
 
 #. js-lingui-id: SHqkdn
 #: src/modules/side-panel/pages/page-layout/constants/ChartSettingsHeadings.ts
