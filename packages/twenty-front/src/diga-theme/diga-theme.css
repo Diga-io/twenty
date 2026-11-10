@@ -1,0 +1,128 @@
+/*
+ * Diga brand theme.
+ *
+ * Overrides the generated Twenty light theme tokens (twenty-ui/theme-light.css,
+ * which lives in the `twenty-ui` cascade layer) with the Diga style reference:
+ * deep indigo actions on an almost-white canvas, navy text instead of black,
+ * lavender hairline borders, orange reserved for active states, Geist for the
+ * dense UI and Sora for long-form text.
+ *
+ * These rules are intentionally unlayered so they win over the layered tokens
+ * without editing the generated file. Only the light theme is rebranded; the
+ * dark theme keeps Twenty's defaults.
+ */
+
+@font-face {
+  font-display: swap;
+  font-family: 'Geist';
+  font-weight: 100 900;
+  src: url('./fonts/geist.woff2') format('woff2');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'Sora';
+  font-weight: 100 800;
+  src: url('./fonts/sora.woff2') format('woff2');
+}
+
+.light {
+  /* Typography */
+  --t-font-family: 'Geist', 'Inter', sans-serif;
+
+  /* Text: navy instead of pure black, blue-grey secondary tones */
+  --t-font-color-primary: #040b53;
+  --t-font-color-secondary: #454859;
+  --t-font-color-tertiary: #767da3;
+  --t-font-color-light: #949ab8;
+  --t-font-color-extra-light: #b6bace;
+  --t-font-color-danger: #bf2717;
+
+  /* Surfaces rise towards white over a bluish canvas */
+  --t-background-primary: #ffffff;
+  --t-background-secondary: #fdfdfd;
+  --t-background-tertiary: #f6f6f9;
+  --t-background-quaternary: #ebecff;
+  --t-background-inverted-primary: #040b53;
+  --t-background-inverted-secondary: #343e96;
+  --t-background-transparent-blue: #343e9614;
+  --t-background-transparent-orange: #ff631414;
+  --t-background-transparent-light: #343e960a;
+  --t-background-transparent-lighter: #343e9605;
+  --t-background-transparent-medium: #343e9614;
+
+  /* Lavender hairline borders */
+  --t-border-color-strong: #d7dae5;
+  --t-border-color-medium: #e7e8ef;
+  --t-border-color-light: #f0f1f6;
+  --t-border-color-blue: #adb3ff;
+  --t-border-color-inverted: #040b53;
+
+  /* Contained radii (6-12px, no pills on surfaces) */
+  --t-border-radius-sm: 6px;
+  --t-border-radius-md: 8px;
+  --t-border-radius-lg: 12px;
+
+  /* Almost invisible shadows based on rgba(10, 13, 18) */
+  --t-box-shadow-light: 0 1px 2px 0 rgba(10, 13, 18, 0.05);
+  --t-box-shadow-strong: 0 12px 32px -4px rgba(10, 13, 18, 0.1),
+    0 4px 8px -2px rgba(10, 13, 18, 0.06);
+
+  /* Blue-tinted grey scale */
+  --t-gray-scale-gray1: #ffffff;
+  --t-gray-scale-gray2: #fdfdfd;
+  --t-gray-scale-gray3: #f9f9fc;
+  --t-gray-scale-gray4: #f6f6f9;
+  --t-gray-scale-gray5: #e7e8ef;
+  --t-gray-scale-gray6: #d7dae5;
+  --t-gray-scale-gray7: #b6bace;
+  --t-gray-scale-gray8: #949ab8;
+  --t-gray-scale-gray9: #868cac;
+  --t-gray-scale-gray10: #767da3;
+  --t-gray-scale-gray11: #454859;
+  --t-gray-scale-gray12: #040b53;
+
+  /* Brand indigo replaces Twenty's blue accent scale */
+  --t-accent-primary: #d7daff;
+  --t-accent-secondary: #c2c6ff;
+  --t-accent-tertiary: #ebecff;
+  --t-accent-quaternary: #f5f5ff;
+  --t-accent-accent3570: #6772ca;
+  --t-accent-accent4060: #6772ca;
+  --t-accent-accent1: #fdfdff;
+  --t-accent-accent2: #f5f5ff;
+  --t-accent-accent3: #ebecff;
+  --t-accent-accent4: #d7daff;
+  --t-accent-accent5: #c2c6ff;
+  --t-accent-accent6: #adb3ff;
+  --t-accent-accent7: #8a92e0;
+  --t-accent-accent8: #6772ca;
+  --t-accent-accent9: #343e96;
+  --t-accent-accent10: #2f3888;
+  --t-accent-accent11: #2a3279;
+  --t-accent-accent12: #040b53;
+  --t-buttons-secondary-text-color: #adb3ff;
+
+  --t-color-blue: #343e96;
+  --t-color-blue1: #fdfdff;
+  --t-color-blue2: #f5f5ff;
+  --t-color-blue3: #ebecff;
+  --t-color-blue4: #d7daff;
+  --t-color-blue5: #c2c6ff;
+  --t-color-blue6: #adb3ff;
+  --t-color-blue7: #8a92e0;
+  --t-color-blue8: #6772ca;
+  --t-color-blue9: #343e96;
+  --t-color-blue10: #2f3888;
+  --t-color-blue11: #2a3279;
+  --t-color-blue12: #040b53;
+
+  /* Functional orange accent for active states */
+  --t-color-orange: #ff6314;
+}
+
+/* Long-form rich text (notes, task bodies) reads in Sora like the Diga body copy. */
+.light .ProseMirror,
+.light .tiptap {
+  font-family: 'Sora', 'Inter', sans-serif;
+}

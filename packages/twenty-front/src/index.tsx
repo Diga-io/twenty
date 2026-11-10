@@ -13,6 +13,7 @@ import 'twenty-ui/style.css';
 import 'twenty-ui/theme-light.css';
 import 'twenty-ui/theme-dark.css';
 import './index.css';
+import './diga-theme/diga-theme.css';
 // Salesfarce: remove with the theme
 import { salesfarceLoadStyles } from '@/salesfarce/utils/salesfarceLoadStyles';
 
