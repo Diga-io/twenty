@@ -1,3 +1,4 @@
+import { PersonContactCard } from '@/object-record/record-show/components/PersonContactCard';
 import { PageLayoutContent } from '@/page-layout/components/PageLayoutContent';
 import { PageLayoutScrollResetEffect } from '@/page-layout/components/PageLayoutScrollResetEffect';
 import { PageLayoutContentProvider } from '@/page-layout/contexts/PageLayoutContentContext';
@@ -10,6 +11,7 @@ import { useWorkspaceSurfaceScopedComponentInstanceId } from '@/ui/layout/hooks/
 import { useTargetRecord } from '@/ui/layout/contexts/useTargetRecord';
 import { ScrollWrapper } from '@/ui/utilities/scroll/components/ScrollWrapper';
 import { styled } from '@linaria/react';
+import { CoreObjectNameSingular } from 'twenty-shared/types';
 import { PageLayoutType } from '~/generated-metadata/graphql';
 import { themeCssVariables } from 'twenty-ui/theme';
 
@@ -86,6 +88,10 @@ export const PageLayoutLeftPanel = ({
           defaultEnableXScroll={false}
           defaultEnableYScroll={true}
         >
+          {targetRecordIdentifier.targetObjectNameSingular ===
+            CoreObjectNameSingular.Person && (
+            <PersonContactCard personId={targetRecordIdentifier.id} />
+          )}
           <PageLayoutContent />
         </ScrollWrapper>
       </PageLayoutContentProvider>
